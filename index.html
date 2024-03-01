@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Juan Francisco Galván">
+  <meta name="date" content="02/09/2023">
+  <meta name="description" content="RGB color generator">
+  <meta name="keywords" content="generator, colors, rgb">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>RGB Colors</title>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <!-- Color 1 -->
+      <div class="color">
+        <label for="red">Red (R)</label>
+        <input id="red" type="range" min="0" max="255" value="23" step="1">
+        <p id="red-text">23</p>
+      </div>
+      <!-- Color 2 -->
+      <div class="color">
+        <label for="green">Green (G)</label>
+        <input id="green" type="range" min="0" max="255" value="41" step="1">
+        <p id="green-text">41</p>
+      </div>
+      <!-- Color 3 -->
+      <div class="color">
+        <label for="blue">Blue (B)</label>
+        <input id="blue" type="range" min="0" max="255" value="56" step="1">
+        <p id="blue-text">56</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
